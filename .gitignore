@@ -1,0 +1,25 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Ignore experiment logs and metrics
+Network-Simulation/stats.csv
+logs/
+metrics/
+
+# Ignore OS and editor files
+*.swp
+*.swo
+.DS_Store
+
+# Ignore Parquet files
+*.parquet
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+venv/
+env/
+
+stats.csv
